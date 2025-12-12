@@ -15,7 +15,7 @@ Este ejercicio enseña a:
 ## 🛠️ Requisitos
 
 ```bash
-pip install pandas numpy matplotlib seaborn
+pip install pandas numpy matplotlib seaborn jupyter
 ```
 
 **Versiones recomendadas:**
@@ -23,6 +23,7 @@ pip install pandas numpy matplotlib seaborn
 - Matplotlib 3.0+
 - Pandas 1.0+
 - NumPy 1.18+
+- jupyter
 - Seaborn 0.11+ (opcional)
 
 ## 🚀 Cómo Ejecutar
@@ -30,31 +31,6 @@ pip install pandas numpy matplotlib seaborn
 ### Opción 1: En Terminal
 ```bash
 python main.py
-```
-
-### Opción 2: En Jupyter Notebook
-
-**Método A - Ejecutar archivo completo:**
-```python
-%matplotlib inline
-%run main.py
-```
-
-**Método B - Ejecutar paso a paso:**
-```python
-# En la primera celda
-%matplotlib inline
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-
-# Luego copiar y ejecutar cada sección del código
-```
-
-**Método C - Cargar y ejecutar:**
-```python
-with open('main.py', 'r') as f:
-    exec(f.read())
 ```
 
 ## 📊 Contenido del Ejercicio
