@@ -207,10 +207,6 @@ El archivo `main.py` contiene el código completo con las siguientes secciones:
 Cada sección está comentada y puede ejecutarse independientemente en Jupyter.
 
 ---
-
-**Duración estimada**: 30-45 minutos  
-**Nivel**: Intermedio  
-**Última actualización**: Diciembre 2024
 ## Principio Visuales 
 
 ![ejemplos](principios_visuales_ejemplos.png)
